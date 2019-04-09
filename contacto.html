@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="scriptPrincipal.js"></script>
+    <title>Carlos Alberto</title>
+</head>
+<body>
+    <div id="contenido">
+        <header>
+                <hgroup>
+                <h1>Carlos de Jesús Alberto Lira</h1>
+                </hgroup>
+                <nav>
+                      <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tutoriales.html">Habilidades</a</li>
+                        <li><a href="contacto.html">Contacto</a</li>
+                        <li><a href="media.html">Media</a</li>
+                     </ul>
+                </nav>
+        </header>
+        <section>
+            <div id='textoPr'>
+               <hgroup>
+                   <h1>Contáctanos</h1>
+               </hgroup>
+               <form>
+                   <label for="nombre">Nombre:</label>
+                   <input type="text" id="nombre" placeholder="Escribe tu nombre" required="">
+                   <label for="correo">E-mail:</label>
+                   <input type="email" id="correo" placeholder="Escribe tu email" required="">
+                   <label for="edad">Edad:</label>
+                   <input type="number" id="edad" min="0">
+                   <label for="calificacion">Calificación:</label>
+                   <input type="range" id="calificacion" min="0" max="10" value="0">
+                   <label for="fecha">Fecha:</label>
+                   <input type="date" id="fecha" placeholder="Fecha de nacimiento">
+                   <input type="submit" value="Enviar Datos" id="btnSubmit">
+               </form>
+            </div>
+        </section>       
+    </div>
+        <footer>
+            <canvas id="miCanvas">
+            </canvas>
+        </footer>
+</body>
+</html>
+
